@@ -11,7 +11,7 @@
     <modules>
         <module>basic-util</module>
         <module>basic-ip-free</module>
-        <module>basic-cache-redis</module>
+        <module>basic-cache</module>
         <module>basic-interview</module>
     </modules>
 

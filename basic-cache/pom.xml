@@ -9,6 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>basic-cache-redis</artifactId>
+    <artifactId>basic-cache</artifactId>
 
+    <properties>
+        <jedis.version>3.1.0-m2</jedis.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
+        </dependency>
+    </dependencies>
 </project>
